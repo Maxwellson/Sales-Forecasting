@@ -54,3 +54,5 @@ Which dates have the lowest and highest sales for each year and which year recor
 Data understanding
 
 After the preliminary data exploration, I noticed that the train and test datasets were highly important. The additional datasets were the oil, transactions, stores and holiday datasets. The first task was to clean the datasets and get rid of duplicates and null values. After going through the above process, I realized that the primary datasets had no duplicates and null values. However, based on the questions and modelling aspect, left join was performed on the supplementary datasets. Missing values in the additional datasets were backfilled and for categorical missing values like for the holiday data, it was filled with no holiday.
+Medium article
+https://medium.com/@maxwellsonj/time-series-regression-project-sales-prediction-2e3f3099bcf1
